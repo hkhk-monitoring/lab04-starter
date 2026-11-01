@@ -2,32 +2,35 @@
 
 Juhend: <https://hkhk-monitoring.github.io/monitoring/week04/lab/>
 
-Kirjuta vastused `_vastus_` asemele, ühe-kahe lausega. Playbook läheb faili `konf/agent.yml`, tõendid kausta `logid/` (juhendi osa „Töö esitamine“).
+Kirjuta vastused `_vastus_` asemele, ühe-kahe lausega. Täida playbook `konf/agent.yml` (kohad `<TÄIDA>`), tõendid lähevad kausta `logid/` (juhendi osa „Töö esitamine“).
 
-
-## Osa 1 · Agent käsitsi proxmox2-s
-
-**Mida näitas `sudo zabbix_agent2 -t 'vfs.fs.size[/,pfree]'`?**
-
-> _vastus_
-
-**Miks oli port 10050 kinni, kuigi `ss` näitas, et agent kuulab?**
-
-> _vastus_
-
-## Osa 2 · Sama playbook'iga kahes masinas
+## Osa 2 · Agent playbook'iga kahes masinas
 
 **`ansible-doc ansible.posix.firewalld`: mida teeb `immediate` ja mis juhtub, kui on ainult `permanent: true`?**
 
 > _vastus_
 
-**Miks oli esimesel käivitusel `proxmox2` ja `proxmox3` `changed` arv erinev?**
+**Kas esimesel käivitusel oli `changed` arv mõlemas masinas sama? Miks handler teisel käivitusel ei käivitunud?**
+
+> _vastus_
+
+**Mis juhtuks, kui playbook'is poleks tulemüüri ülesannet? Kumma hosti andmed jääksid tulemata?**
 
 > _vastus_
 
 ## Osa 3 · Template'id: passiivne ja aktiivne
 
 **Mis on veerus Type `proxmox2` ja `proxmox3` item'ite erinevus ja mida see ütleb selle kohta, kes ühenduse avab?**
+
+> _vastus_
+
+| Item (`proxmox2`) | Last value | Last check | Last check 1–2 min hiljem |
+|---|---|---|---|
+| Available memory | _vastus_ | _vastus_ | _vastus_ |
+| CPU utilization | _vastus_ | _vastus_ | _vastus_ |
+| FS [/]: Space: Available | _vastus_ | _vastus_ | _vastus_ |
+
+**Kas `zabbix_agent2 -t 'vm.memory.size[available]'` ja veebiliidese väärtus klapivad? Kui ei, siis miks?**
 
 > _vastus_
 
@@ -42,7 +45,6 @@ Kirjuta vastused `_vastus_` asemele, ühe-kahe lausega. Playbook läheb faili `k
 **Mitu minutit kulus täitmisest probleemini ja kustutamisest lahenemiseni? Miks see ei juhtunud kohe?**
 
 > _vastus_
-
 
 ## Kodutöö
 
