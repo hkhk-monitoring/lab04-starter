@@ -1,4 +1,4 @@
-# Praktikum 3: agent räägib serverile
+# Praktikum 3: agent suhtleb serveriga
 
 Juhend: <https://hkhk-monitoring.github.io/monitoring/week04/lab/>
 
