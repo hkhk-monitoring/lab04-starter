@@ -50,26 +50,14 @@ Kirjuta vastused `_vastus_` asemele, ühe-kahe lausega. Täida playbook `konf/ag
 
 Juhend: <https://hkhk-monitoring.github.io/monitoring/week04/homework/>. Failid `konf/varundus.conf` ja `logid/kodutoo-varundus.txt`.
 
-1. Kirjuta oma trigger'i avaldis.
+1. Sinu trigger'i avaldis.
 
     > _kodutöö_
 
-2. Mitu minutit pärast cron'i keelamist tekkis probleem ja miks just siis?
+2. Probleemi algus- ja lahenemise aeg.
 
     > _kodutöö_
 
-3. Mis juhtub, kui keegi kustutab faili `/var/tmp/varundus.ok`? Kas see on hea või halb?
-
-    > _kodutöö_
-
-4. Miks sobib aktiivne kontroll võrku, kus server ei pääse varundusmasinasse? Kas sama võtit saaks kasutada ka passiivse kontrollina?
-
-    > _kodutöö_
-
-5. Probleemi ajalugu: host, algusaeg, lahenemise aeg, cron'i keelamise ja taastamise kellaaeg.
-
-    > _kodutöö_
-
-6. Mida see kontroll tõendab ja mida peaksid veel kontrollima, et teada, kas varukoopiast saab andmed taastada?
+3. Mida see kontroll tõendab ja mida mitte?
 
     > _kodutöö_
