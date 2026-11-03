@@ -54,7 +54,7 @@ Juhend: <https://hkhk-monitoring.github.io/monitoring/week04/homework/>. Failid 
 
     > _kodutöö_
 
-2. Mitu minutit pärast cron'i väljalülitamist tekkis probleem ja miks just siis?
+2. Mitu minutit pärast cron'i keelamist tekkis probleem ja miks just siis?
 
     > _kodutöö_
 
@@ -62,6 +62,14 @@ Juhend: <https://hkhk-monitoring.github.io/monitoring/week04/homework/>. Failid 
 
     > _kodutöö_
 
-4. Miks sobib see kontroll paremini aktiivsele agendile?
+4. Miks sobib aktiivne kontroll võrku, kus server ei pääse varundusmasinasse? Kas sama võtit saaks kasutada ka passiivse kontrollina?
+
+    > _kodutöö_
+
+5. Probleemi ajalugu: host, algusaeg, lahenemise aeg, cron'i keelamise ja taastamise kellaaeg.
+
+    > _kodutöö_
+
+6. Mida see kontroll tõendab ja mida peaksid veel kontrollima, et teada, kas varukoopiast saab andmed taastada?
 
     > _kodutöö_
