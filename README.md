@@ -45,19 +45,3 @@ Kirjuta vastused `_vastus_` asemele, ühe-kahe lausega. Täida playbook `konf/ag
 **Mitu minutit kulus täitmisest probleemini ja kustutamisest lahenemiseni? Miks see ei juhtunud kohe?**
 
 > _vastus_
-
-## Kodutöö
-
-Juhend: <https://hkhk-monitoring.github.io/monitoring/week04/homework/>. Failid `konf/varundus.conf` ja `logid/kodutoo-varundus.txt`.
-
-1. Sinu trigger'i avaldis.
-
-    > _kodutöö_
-
-2. Probleemi algus- ja lahenemise aeg.
-
-    > _kodutöö_
-
-3. Mida see kontroll tõendab ja mida mitte?
-
-    > _kodutöö_
