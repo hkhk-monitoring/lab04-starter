@@ -1,5 +1,5 @@
 # Zabbix agent 2 jälgitavatesse masinatesse.
-# Täida iga <TÄIDA> koht. Juhend: praktikum 3, osa 2.
+# Täida iga <TÄIDA> koht. Juhend: praktikum 4, osa 2.
 # Käivitus: ansible-playbook -i proxmox2,proxmox3, konf/agent.yml
 - name: Zabbix agent 2 jälgitavatesse masinatesse
   hosts: all

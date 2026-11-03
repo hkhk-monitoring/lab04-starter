@@ -1,5 +1,5 @@
 # Zabbix 7.0 LTS: andmebaas, server ja veebiliides (sama mis praktikumis 2).
-# Kasuta ainult siis, kui sul proxmox1-s Zabbixit veel ei ole. Juhend: praktikum 3, osa 1.
+# Kasuta ainult siis, kui sul proxmox1-s Zabbixit veel ei ole. Juhend: praktikum 4, osa 1.
 services:
   postgres:
     image: postgres:16-alpine
