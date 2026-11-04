@@ -1,5 +1,6 @@
 # Zabbix agent 2 jälgitavatesse masinatesse.
-# Ehitad selle playbook'i üles ülesanne haaval, juhend: praktikum 4, osa 2.
+# Koostad selle playbook'i ülesannete kaupa, juhend: praktikum 4, osa 2.
+# Read, mis algavad märgiga # >>>, näitavad, kuhu iga osa ülesanne läheb.
 # Käivitus: ansible-playbook -i proxmox2,proxmox3, konf/agent.yml
 - name: Zabbix agent 2 jälgitavatesse masinatesse
   hosts: all
@@ -12,7 +13,7 @@
         key: https://repo.zabbix.com/RPM-GPG-KEY-ZABBIX-B5333005
         state: present
 
-    # Osa 2.2: lisa siia Zabbix 7.0 hoidla ülesanne.
+    # >>> Osa 2.2: lisa siia hoidla ülesanne
 
     - name: Kas EPEL on olemas
       ansible.builtin.stat:
@@ -26,6 +27,10 @@
         line: excludepkgs=zabbix*
       when: epel.stat.exists
 
-    # Osa 2.4–2.6: lisa siia agendi pakett, seaded, tulemüür ja teenus.
+    # >>> Osa 2.4: lisa siia agendi paketi ülesanne
 
-  # Osa 2.5: lisa siia handler'ite plokk.
+    # >>> Osa 2.5: lisa siia agendi seadete ülesanne
+
+    # >>> Osa 2.6: lisa siia tulemüüri ja teenuse ülesanded
+
+  # >>> Osa 2.5: lisa siia handlers-plokk (taandega nagu tasks:)
