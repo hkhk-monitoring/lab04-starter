@@ -2,19 +2,11 @@
 
 Juhend: <https://hkhk-monitoring.github.io/monitoring/week04/lab/>
 
-Kirjuta vastused `_vastus_` asemele, ühe-kahe lausega. Täida playbook `konf/agent.yml` (kohad `<TÄIDA>`), tõendid lähevad kausta `logid/` (juhendi osa „Töö esitamine“).
+Kirjuta vastused `_vastus_` asemele, ühe-kahe lausega. Playbook `konf/agent.yml` koostad juhendi osa 2 järgi, tõendid lähevad kausta `logid/` (juhendi osa „Töö esitamine“).
 
-## Osa 2 · Agent playbook'iga kahes masinas
-
-**`ansible-doc ansible.posix.firewalld`: mida teeb `immediate` ja mis juhtub, kui on ainult `permanent: true`?**
-
-> _vastus_
+## Osa 2 · Agent Ansible'i playbook'iga kahes masinas
 
 **Kas esimesel käivitusel oli `changed` arv mõlemas masinas sama? Miks handler teisel käivitusel ei käivitunud?**
-
-> _vastus_
-
-**Mis juhtuks, kui playbook'is poleks tulemüüri ülesannet? Kumma hosti andmed jääksid tulemata?**
 
 > _vastus_
 
@@ -34,13 +26,7 @@ Kirjuta vastused `_vastus_` asemele, ühe-kahe lausega. Täida playbook `konf/ag
 
 > _vastus_
 
-## Osa 4 · Kes avab ühenduse
-
-**Miks tulid `proxmox3` andmed edasi ja kuidas playbook'i uus käivitus triivi parandas?**
-
-> _vastus_
-
-## Osa 5 · Oma trigger: vaba kettaruum alla 20%
+## Osa 4 · Oma trigger: vaba kettaruum alla 20%
 
 **Mitu minutit kulus täitmisest probleemini ja kustutamisest lahenemiseni? Miks see ei juhtunud kohe?**
 
